@@ -174,7 +174,8 @@ nav{
     position: relative;
 }
 #moving-text{
-    overflow-x: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
     white-space: nowrap;
 }
 #moving-text::-webkit-scrollbar{
